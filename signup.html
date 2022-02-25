@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap" rel="stylesheet" />
+
+  <style>
+    .container {
+      background-color: #fff;
+      max-width: 40%;
+      padding: 30px;
+      margin: auto;
+      text-align: center;
+      padding-right: 0%;
+      padding-left: 0%;
+      text-transform: inherit;
+      border-radius: 15px;
+      font-size: 25px;
+    }
+
+    .null {
+      padding: 34px;
+    }
+
+    .pass {
+      padding: 8px;
+      width: 90%;
+    }
+
+    #pass,
+    #con {
+      padding: 8px;
+      width: 90%;
+    }
+
+    .t,
+    .l {
+      width: 41.75%;
+      padding: 8px;
+    }
+
+    .bg {
+      background-color: rgb(14, 15, 26);
+    }
+  </style>
+  <title>Signup</title>
+</head>
+
+<body class="bg">
+  <div class="null"></div>
+  <div class="container">
+    <h2>Sign up</h2>
+    <form action="signup.php" method="post">
+      <input type="text" class="t" name="fname" placeholder="First name" />&ensp;
+      <input type="text" class="l" name="lname" placeholder="Last name" /><br /><br />
+      <input type="email" class="pass" name="email" placeholder="Enter your email" /><br /><br />
+      <input type="password" id="pass" name="pass" placeholder="Enter your password" /><br /><br />
+      <span style="font-size: large">Already a Member? <a href="loginpage.html">Login</a></span><br />
+      <input type="submit" value="Signup" class="sub" />
+    </form>
+  </div>
+</body>
+
+</html>

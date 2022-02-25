@@ -1,0 +1,89 @@
+.bg {
+  background-color: rgb(14, 15, 26);
+}
+.salary {
+  background-color: rgba(255, 255, 255, 0.06);
+  text-align: center;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 300px;
+  padding-top: 100px;
+  margin-right: 400px;
+  margin-left: 400px;
+  margin-top: 100px;
+}
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+.btn {
+  color: white;
+  background-color: rgba(255, 255, 255, 0.06);
+
+  font-family: sans-serif;
+  border-right-width: 0px;
+  border-top-width: 0px;
+  border-bottom-width: 0px;
+  border-left-width: 0px;
+}
+.btn:hover {
+  background-color: rgb(14, 15, 26);
+}
+.btn:active {
+  background-color: rgba(255, 255, 255, 0.06);
+}
+.expenses {
+  color: white;
+  font-family: sans-serif;
+  font-size: large;
+}
+.FinalOutput {
+  color: white;
+  font-family: sans-serif;
+  font-size: large;
+  background-color: rgba(255, 255, 255, 0.06);
+  text-align: center;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 300px;
+  padding-top: 100px;
+  margin-right: 400px;
+  margin-left: 400px;
+  margin-top: 100px;
+}
+.form {
+  float: right;
+}
+.login {
+  float: right;
+  color: white;
+  background-color: rgb(14, 15, 26);
+  font-family: sans-serif;
+  border-width: 1px 1px 1px 1px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-bottom-width: 1px;
+  border-right-width: 1px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.login:hover {
+  background-color: rgba(255, 255, 255, 0.06);
+}
+
+button{
+  padding: 8px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+.FinalTable{
+  padding: 16px;
+    width: 100%;
+    
+    text-align: left;
+}
+#TotalSpend{
+  text-align: left;
+}
+

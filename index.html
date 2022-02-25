@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Expense Tracker</title>
+  <link rel="stylesheet" href="index.css" />
+  <script src="main.js"></script>
+</head>
+
+<body class="bg">
+  <div class="head">
+    <form action="home.html" class="form">
+      <input type="submit" value="Home" class="login">
+    </form>
+    <span style="color: white; font-family: sans-serif; font-size: xxx-large">Expense</span>
+    <span style="color: aqua; font-family: sans-serif; font-size: larger">Tracker</span>
+  </div>
+  <div class="salary">
+    <span style="color: white; font-family: sans-serif; font-size: large">Budget</span><br /><br />
+    <input type="number" id="1" /><br /><br />
+    <input type="button" value="Add" class="btn" onclick="getdata()" />
+  </div>
+  <div class="salary">
+    <div class="expenses" id="expenses">Your Budget is : 0₹<br /><br /></div>
+    <div id="addList"></div>
+    <button class="btn" onclick="addInputField();">Add Expense</button>
+    <button class="btn" onclick="calcBudget();" style="display: none" id="submitbtn">
+      Submit
+    </button>
+  </div>
+   <div class="FinalOutput">Your Expense:<br><br>
+    <table class="FinalTable" id="FinalTable">
+      <tr>
+        <th>Item name</th>
+        <th>Price</th>
+      </tr>
+      
+    </table>
+
+    <p id="TotalSpend"></p>
+ 
+
+  </div>
+</body>
+
+</html>
